@@ -48,4 +48,4 @@ Please verify that env.php contains correct rabbit creds & above listed consumer
 ![queues created in rabbitmq](https://github.com/nemke82/Magento2-Inventory-RabbitMQ/blob/main/inventory-rabbitmq-queues.png)
     
 Small video demonstrating mass stock update:
-[![Watch the video]()](https://youtu.be/y5GMxOhZ22Y)
+![](https://github.com/nemke82/Magento2-Inventory-RabbitMQ/blob/main/magento2-inventory-rabbitmq.webp)
