@@ -46,3 +46,6 @@ IMPORTANT INFO: <BR>
 Please verify that env.php contains correct rabbit creds & above listed consumers are added to consumer_runners if you run consumers using Cron, otherwise it will not run. Also, after patch applied make sure that you execute setup:upgrade and verify if queue is created within RabbitMQ service.
 
 ![queues created in rabbitmq](https://github.com/nemke82/Magento2-Inventory-RabbitMQ/blob/main/inventory-rabbitmq-queues.png)
+    
+Small video demonstrating mass stock update:
+[![Watch the video]()](https://youtu.be/y5GMxOhZ22Y)
