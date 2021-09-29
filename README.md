@@ -22,7 +22,8 @@ Edit the composer.json file and add the following section to specify:
             "magento/module-inventory-sales": {
                 "Inventory-RabbitMQ: inventory.reservations.update and inventory.reservations.cleanup conversion to amqp": "https://raw.githubusercontent.com/nemke82/Magento2-Inventory-RabbitMQ/main/module-inventory-sales.patch"
             }
-          }    
+          }
+}
 ```
 Text is added in the "extra": { section, with following content:
 
