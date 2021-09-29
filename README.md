@@ -13,17 +13,14 @@ Edit the composer.json file and add the following section to specify:
     "extra": {
         "magento-force": "override",
         "patches": {
-            "magento/module-media-gallery-synchronization": {
-                "Media-RabbitMQ: media.gallery.synchronization conversion to amqp": "https://raw.githubusercontent.com/nemke82/Magento2-Media-RabbitMQ/main/module-media-gallery-synchronization.patch"
+            "magento/module-inventory-catalog": {
+                "Inventory-RabbitMQ: inventory.source.items.cleanup and inventory.mass.update to amqp": "https://raw.githubusercontent.com/nemke82/Magento2-Inventory-RabbitMQ/main/module-inventory-catalog.patch"
             },
-            "magento/module-media-gallery-renditions": {
-                "Media-RabbitMQ: media.gallery.renditions.update conversion to amqp": "https://raw.githubusercontent.com/nemke82/Magento2-Media-RabbitMQ/main/module-media-gallery-renditions.patch"
+            "magento/module-inventory-indexer": {
+                "Inventory-RabbitMQ: inventory.indexer.sourceItem and inventory.indexer.stock conversion to amqp": "https://raw.githubusercontent.com/nemke82/Magento2-Inventory-RabbitMQ/main/module-inventory-indexer.patch"
             },
-            "magento/module-media-content-synchronization": {
-                "Media-RabbitMQ: media.content.synchronization conversion to amqp": "https://raw.githubusercontent.com/nemke82/Magento2-Media-RabbitMQ/main/module-media-content-synchronization.patch"
-            },
-            "magento/module-media-storage": {
-                "Media-RabbitMQ: media.storage.catalog.image.resize conversion to amqp": "https://raw.githubusercontent.com/nemke82/Magento2-Media-RabbitMQ/main/module-media-storage.patch"
+            "magento/module-inventory-sales": {
+                "Inventory-RabbitMQ: inventory.reservations.update and inventory.reservations.cleanup conversion to amqp": "https://raw.githubusercontent.com/nemke82/Magento2-Inventory-RabbitMQ/main/module-inventory-sales.patch"
             }
           }    
 ```
