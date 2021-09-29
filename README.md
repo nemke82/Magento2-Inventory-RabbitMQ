@@ -49,3 +49,6 @@ Please verify that env.php contains correct rabbit creds & above listed consumer
     
 Small video demonstrating mass stock update:
 ![](https://github.com/nemke82/Magento2-Inventory-RabbitMQ/blob/main/magento2-inventory-rabbitmq.webp)
+
+Full resolution video you can watch here:
+https://www.youtube.com/watch?v=y5GMxOhZ22Y
